@@ -10,12 +10,12 @@ interface T {
 const MetaHead: React.FC<T> = ({ title, description, icon, keywords }) => {
   return (
     <Head>
-      <title>{title || `Obi Fortune Personal Portfolio`}</title>
+      <title>{title || `Adepeju Orefejo Personal Portfolio`}</title>
       <meta
         name="description"
         content={
           description ||
-          `Obi Fortune Personal Portfolio. Built with Next.js and Sanity.`
+          `Adepeju Orefejo Personal Portfolio. Built with Next.js and Sanity.`
         }
       />
       <link rel="icon" href={icon || `/favicon.ico`} />
@@ -23,7 +23,7 @@ const MetaHead: React.FC<T> = ({ title, description, icon, keywords }) => {
         name="keywords"
         content={keywords || `PORTFOLIO, DEVELOPER, NEXTJS, REACTJS, SANITY`}
       />
-      <meta name="author" content="Obi Fortune" />
+      <meta name="author" content="Adepeju Orefejo" />
 
       <meta name="robots" content="index, follow" />
       <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />

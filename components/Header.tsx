@@ -77,7 +77,7 @@ const Header = () => {
           <Group>
             <ThemeSwitcher />
             <Anchor component={Link} href="/" underline={false}>
-              <Title>OBI FORTUNE</Title>
+              <Title>Orefejo Adepeju</Title>
             </Anchor>
           </Group>
 
